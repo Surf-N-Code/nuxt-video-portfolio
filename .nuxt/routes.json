@@ -1,0 +1,16 @@
+[
+  {
+    "name": "videos",
+    "path": "/videos",
+    "component": "/home/norman/Development/huenteloep/pages/videos.vue",
+    "chunkName": "pages/videos",
+    "_name": "_4d612412"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/norman/Development/huenteloep/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_c8dc17f0"
+  }
+]
