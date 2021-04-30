@@ -13,7 +13,7 @@ export default {
           id: 1,
           name: 'Norman',
           imageSrc: 'norman.jpg',
-          videoUrl: 'norman.mp4',
+          videoUrl: 'norman.mov',
         },
         {
           id: 2,
