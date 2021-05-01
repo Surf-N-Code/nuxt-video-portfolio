@@ -5,8 +5,17 @@
 </template>
 
 <style>
+/* @font-face {
+  font-family: Shorelines;
+  src: url('../assets/fonts/shorelines.otf');
+} */
+@font-face {
+  font-family: MelodySouthern;
+  src: url('../assets/fonts/MelodySouthern-Script.otf');
+}
+
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  font-family: 'MelodySouthern', 'Shorelines', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
@@ -15,6 +24,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  background-color: #ec4899;
 }
 
 *,
