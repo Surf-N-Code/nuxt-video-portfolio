@@ -15,3 +15,5 @@ dist
 
 # End of https://www.toptal.com/developers/gitignore/api/nuxt
 node_modules
+
+assets/video
