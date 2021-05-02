@@ -1,9 +1,10 @@
 <template>
-   <div class="relative rounded-lg overflow-hidden shadow-xl my-2 bg-white">
+   <div class="relative rounded-lg overflow-hidden shadow-xl my-2 bg-white mt-8 mx-8" stlye="width: 320px; height: 408px;">
+      <svg v-show="showVideo" @click="stopVideo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="absolute top-2 right-2 fill-current text-pink-500 w-8 h-8 z-50 cursor-pointer"><path class="secondary" fill-rule="evenodd" d="M15.78 14.36a1 1 0 0 1-1.42 1.42l-2.82-2.83-2.83 2.83a1 1 0 1 1-1.42-1.42l2.83-2.82L7.3 8.7a1 1 0 0 1 1.42-1.42l2.83 2.83 2.82-2.83a1 1 0 0 1 1.42 1.42l-2.83 2.83 2.83 2.82z"/></svg>
       <button
         @click="stopVideo"
         v-show="showVideo"
-        class="fixed w-full h-full bg-black transition-all opacity-70 inset-0 z-40">
+        class="fixed w-full h-full bg-black transition-all opacity-70 inset-0 z-10">
       </button>
       <div class="z-10">
         <div
@@ -30,7 +31,7 @@
       </div>
       <div
         v-show="showVideo"
-        class="absolute flex flex-column items-center justify-center w-full h-full top-0 bg-black z-50">
+        class="absolute flex flex-column items-center justify-center w-full h-full top-0 bg-black z-20">
         <iframe
           width="560"
           height="315"
