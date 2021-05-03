@@ -1,14 +1,22 @@
 <template>
   <div>
-    <div class="flex justify-between align-center w-full py-8 text-4xl border-b-2 border-pink-400 text-pink-200 font-bold shadow">
-      <img src="../assets/icon/minivan.svg" class="flex self-center ml-8 w-10 h-10 md:w-20 md:h-20"/>
+    <div
+      class="flex justify-between align-center w-full py-8 text-4xl border-b-2 border-pink-400 text-pink-200 font-bold shadow"
+    >
+      <img
+        src="../assets/icon/minivan.svg"
+        class="flex self-center ml-8 w-10 h-10 md:w-20 md:h-20"
+      />
       <div class="text-pink-100 text-xl md:text-4xl" style="line-height: 2.7">
         Betti & Chrissi - a Lovestory
       </div>
-      <img src="../assets/icon/heart.svg" class="flex self-center mr-8 w-8 h-8 md:w-12 md:h-12"/>
+      <img
+        src="../assets/icon/heart.svg"
+        class="flex self-center mr-8 w-8 h-8 md:w-12 md:h-12"
+      />
     </div>
     <div class="flex flex-wrap justify-around">
-      <Profile v-for="(person, i) in people" :key="i" :person="person"/>
+      <Profile v-for="(person, i) in people" :key="i" :person="person" />
     </div>
   </div>
 </template>
@@ -26,7 +34,8 @@ export default {
         {
           name: 'Annemarie & Bernd',
           imageSrc: 'annemarie-bernd.jpg',
-          videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Annemarie-Bernd.mp4',
+          videoUrl:
+            'https://diltheymedia.com/pingu-roar/Video_Annemarie-Bernd.mp4',
         },
         {
           name: 'Björn',
@@ -46,12 +55,14 @@ export default {
         {
           name: 'Claire & Carsten',
           imageSrc: 'claire-carsten.jpg',
-          videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Claire_Carsten.mp4',
+          videoUrl:
+            'https://diltheymedia.com/pingu-roar/Video_Claire_Carsten.mp4',
         },
         {
           name: 'Florian & Gloria',
           imageSrc: 'florian.jpg',
           imageFolder: 'florian',
+          lastImageId: 2,
         },
         {
           name: 'Die Göttinger',
@@ -117,7 +128,8 @@ export default {
         {
           name: 'Mareike & Alfons',
           imageSrc: 'mareike-alfons.jpg',
-          videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Mareike-Alfons.mp4',
+          videoUrl:
+            'https://diltheymedia.com/pingu-roar/Video_Mareike-Alfons.mp4',
         },
         {
           name: 'Martin & Franzi',
