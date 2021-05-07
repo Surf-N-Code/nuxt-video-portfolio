@@ -14,7 +14,7 @@
     </svg>
     <swiper ref="mySwiper" :options="swiperOptions">
       <swiper-slide v-for="image, i in images" :key="i">
-        <img :src="image" class="rounded-lg px-8"/>
+        <img :src="image" class="rounded-lg px-8 m-auto"/>
       </swiper-slide>
     </swiper>
   </div>
