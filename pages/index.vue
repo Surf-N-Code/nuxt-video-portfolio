@@ -35,7 +35,7 @@ export default {
         {
           name: 'Anne',
           imageSrc: 'anne.jpg',
-          videoUrl: '',
+          videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Anne.mp4',
         },
         {
           name: 'Annemarie & Bernd',
