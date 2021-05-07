@@ -89,7 +89,8 @@
       class="fixed w-full h-full inset-0 z-50"
       v-if="(person.imageFolder || false) && showImageslider"
     >
-      <ImageSlider :person="person" v-on:close-image-slider="toggleImageSlider"/>
+      <ImageSliderAwesome :person="person" v-on:close-image-slider="toggleImageSlider"/> 
+      <!-- <ImageSlider :person="person" v-on:close-image-slider="toggleImageSlider"/> -->
     </div>
   </div>
 </template>

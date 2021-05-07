@@ -86,7 +86,7 @@ export default {
           videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Doro_Markus.mp4',
         },
         {
-          name: 'Sandra, Nora, Gucci & Henning',
+          name: 'Nora & Henning',
           imageSrc: 'henning.jpg',
           videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Henning.mp4',
         },
@@ -191,6 +191,11 @@ export default {
           name: 'Rieke, Alex & Toni',
           imageSrc: 'rieke-alex-toni.jpg',
           videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Rieke-Alex.mp4',
+        },
+        {
+          name: 'Sandra & Gucci',
+          imageSrc: 'gucci.jpg',
+          videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Henning.mp4',
         },
         {
           name: 'Sarah & Julius',
