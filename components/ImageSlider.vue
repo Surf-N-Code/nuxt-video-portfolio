@@ -1,5 +1,5 @@
 <template>
-  <div class="relative" v-if="this.images.length > 0">
+  <div class="flex justify-center items-center w-full h-full relative" v-if="this.images.length > 0">
     <svg
       @click="closeSlider"
       xmlns="http://www.w3.org/2000/svg"
@@ -16,11 +16,11 @@
       <img :src="currentImg" class="rounded-md"/>
       <img :src="nextUpImage" class="rounded-md hidden"/>
     </div>
-    <a class="prev cursor-pointer fixed text-white" @click="prev" href="#"
-      >&#10094; <span class="hidden md:block">Previous</span></a
+    <a class="flex prev cursor-pointer fixed text-white" @click="prev" href="#"
+      ><span>&#10094;</span> <span class="hidden md:block ml-4">Previous</span></a
     >
-    <a class="next cursor-pointer fixed text-white" @click="next" href="#"
-      > <span class="hidden md:block">Next</span> &#10095;</a
+    <a class="flex next cursor-pointer fixed text-white" @click="next" href="#"
+      > <span class="hidden md:block mr-4">Next</span> <span>&#10095;</span></a
     >
   </div>
 </template>

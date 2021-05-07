@@ -15,6 +15,7 @@
         class="flex self-center mr-8 w-8 h-8 md:w-12 md:h-12"
       />
     </div>
+    <!-- <ImageSliderAwesome /> -->
     <div class="flex flex-wrap justify-around">
       <Profile v-for="(person, i) in people" :key="i" :person="person" />
     </div>
@@ -27,6 +28,11 @@ export default {
     return {
       people: [
         {
+          name: 'Arno, Yvonne, Kolja & Juri',
+          imageSrc: 'arno.jpg',
+          videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Arno.mp4',
+        },
+        {
           name: 'Anne',
           imageSrc: 'anne.jpg',
           videoUrl: '',
@@ -36,6 +42,11 @@ export default {
           imageSrc: 'annemarie-bernd.jpg',
           videoUrl:
             'https://diltheymedia.com/pingu-roar/Video_Annemarie-Bernd.mp4',
+        },
+        {
+          name: 'Bene',
+          imageSrc: 'bene.jpg',
+          videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Bene.mp4',
         },
         {
           name: 'Björn',
@@ -70,12 +81,17 @@ export default {
           videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Goettinger.mp4',
         },
         {
+          name: 'Doro & Markus',
+          imageSrc: 'doro-markus.jpg',
+          videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Doro_Markus.mp4',
+        },
+        {
           name: 'Sandra, Nora, Gucci & Henning',
           imageSrc: 'henning.jpg',
           videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Henning.mp4',
         },
         {
-          name: 'Inga Steffen',
+          name: 'Inga Stefan',
           imageSrc: 'inga-steffen.jpg',
           videoUrl: 'https://diltheymedia.com/pingu-roar/Video-Inga-Stefan.mp4',
         },
@@ -83,6 +99,13 @@ export default {
           name: 'Jan & Jessi',
           imageSrc: 'jan.jpg',
           videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Jan.mp4',
+          imageFolder: 'jan',
+          lastImageId: 13 
+        },
+        {
+          name: 'Jessie',
+          imageSrc: 'jessie.jpg',
+          videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Jessie.mp4',
         },
         {
           name: 'Jens',
@@ -119,6 +142,7 @@ export default {
           imageSrc: 'lance.jpg',
           videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Lance.mp4',
           imageFolder: 'lance',
+          lastImageId: 13
         },
         {
           name: 'Leander',
@@ -140,6 +164,7 @@ export default {
           name: 'Mäx',
           imageSrc: 'max-h.jpg',
           imageFolder: 'max',
+          lastImageId: 5
         },
         {
           name: 'Luis & Max',
@@ -201,6 +226,7 @@ export default {
           imageSrc: 'sophia-david-lion-louis.jpg',
           videoUrl: '',
           imageFolder: 'sophia',
+          lastImageId: 7
         },
         {
           name: 'Stammtisch',
@@ -208,14 +234,26 @@ export default {
           videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Stammtisch.mp4',
         },
         {
+          name: 'Stratti',
+          imageSrc: 'stratti.jpg',
+          videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Thilo_Stratti.mp4',
+        },
+        {
           name: 'Thilo',
           imageSrc: 'thilo.jpg',
-          videoUrl: '',
+          videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Thilo_Stratti.mp4',
         },
         {
           name: 'Toppa',
           imageSrc: 'toppa.jpg',
           videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Puma.mp4',
+        },
+        {
+          name: 'Sarah & Vivi',
+          imageSrc: 'sarah-vivi.jpg',
+          videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Vivian-Sarah.mp4',
+          imageFolder: 'vivian',
+          lastImageId: 10
         },
       ],
     };

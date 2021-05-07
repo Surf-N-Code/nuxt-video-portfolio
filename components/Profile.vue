@@ -89,9 +89,7 @@
       class="fixed w-full h-full inset-0 z-50"
       v-if="(person.imageFolder || false) && showImageslider"
     >
-      <div class="flex justify-center items-center w-full h-full">
-        <ImageSlider :person="person" v-on:close-image-slider="toggleImageSlider"/>
-      </div>
+      <ImageSlider :person="person" v-on:close-image-slider="toggleImageSlider"/>
     </div>
   </div>
 </template>
