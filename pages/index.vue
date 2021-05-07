@@ -49,6 +49,11 @@ export default {
           videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Bene.mp4',
         },
         {
+          name: 'Benjamin',
+          imageSrc: 'benni.jpg',
+          videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Benjamin.mp4',
+        },
+        {
           name: 'Björn',
           imageSrc: 'bjoern.jpg',
           videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Bjoern.mp4',
@@ -84,6 +89,11 @@ export default {
           name: 'Doro & Markus',
           imageSrc: 'doro-markus.jpg',
           videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Doro_Markus.mp4',
+        },
+        {
+          name: 'Döner',
+          imageSrc: 'doener.jpg',
+          videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Doener.mp4',
         },
         {
           name: 'Nora & Henning',
@@ -124,6 +134,11 @@ export default {
           name: 'Julia',
           imageSrc: 'julia.jpg',
           videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Julia.mp4',
+        },
+        {
+          name: 'Ina & Robert',
+          imageSrc: 'silke-robert.jpg',
+          videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Ina-Robert.mp4',
         },
         {
           name: 'Nicole & Kandzi',
