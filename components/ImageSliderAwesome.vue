@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center items-center w-full h-full relative" v-if="this.images.length > 0">
+  <div class="s-w flex justify-center items-center w-full h-full relative" v-if="this.images.length > 0">
     <svg
       @click="closeSlider"
       xmlns="http://www.w3.org/2000/svg"
@@ -70,3 +70,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.swiper-wrapper {
+  align-items: center;
+}
+</style>
