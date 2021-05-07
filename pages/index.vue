@@ -99,8 +99,6 @@ export default {
           name: 'Jan & Jessi',
           imageSrc: 'jan.jpg',
           videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Jan.mp4',
-          imageFolder: 'jan',
-          lastImageId: 13 
         },
         {
           name: 'Jessie',
@@ -141,8 +139,6 @@ export default {
           name: 'Lance',
           imageSrc: 'lance.jpg',
           videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Lance.mp4',
-          imageFolder: 'lance',
-          lastImageId: 13
         },
         {
           name: 'Leander',
@@ -252,8 +248,6 @@ export default {
           name: 'Sarah & Vivi',
           imageSrc: 'sarah-vivi.jpg',
           videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Vivian-Sarah.mp4',
-          imageFolder: 'vivian',
-          lastImageId: 10
         },
       ],
     };
