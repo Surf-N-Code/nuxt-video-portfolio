@@ -4,14 +4,18 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'huenteloep',
+    title: 'Pingu Roar - Betti & Chrissi Lovestory :)',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'de',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Pingu-Roar eine Pinguin & Löwen Lovestory' },
+      { property: 'og:title', content: 'Pingu Roar - Betti & Chrissi Lovestory :)' },
+      { property: 'og:url', content: 'https://pingu-roar.com' },
+      { property: 'og:description', content: 'Pingu Roar - Betti & Chrissi Lovestory :)' },
+      { property: 'og:image', content: 'https://diltheymedia.com/pingu-roar/img/og-image.png' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
