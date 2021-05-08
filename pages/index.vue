@@ -101,7 +101,7 @@ export default {
           videoUrl: 'https://diltheymedia.com/pingu-roar/Video_Henning.mp4',
         },
         {
-          name: 'Inga Stefan',
+          name: 'Inga & Stefan',
           imageSrc: 'inga-steffen.jpg',
           videoUrl: 'https://diltheymedia.com/pingu-roar/Video-Inga-Stefan.mp4',
         },
