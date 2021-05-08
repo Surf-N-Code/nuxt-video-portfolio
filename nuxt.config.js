@@ -17,7 +17,7 @@ export default {
       { property: 'og:description', content: 'Pingu Roar - Betti & Chrissi Lovestory :)' },
       { property: 'og:image', content: 'https://diltheymedia.com/pingu-roar/img/og-image.png' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: 'https://diltheymedia.com/pingu-roar/img/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
