@@ -1,4 +1,8 @@
-# huenteloep
+# Video & Images portfolio
+
+## Description
+
+A vue app acting as a marriage gift. The app shows photos of friends with a button to show the friend's video or image slider.
 
 ## Build Setup
 
